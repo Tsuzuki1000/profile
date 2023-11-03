@@ -1,0 +1,197 @@
+@charset "UTF-8";
+
+/*
+
+プロフィール用のサイトです.
+
+
+*/
+
+html {
+  font-size: 100%;
+}
+
+main {
+  margin-top: 80px;
+}
+
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+
+.my-name {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 60px;
+}
+
+
+.section-title {
+  text-align: center;
+  margin-bottom: 60px;
+  font-size: 30px;
+}
+
+.page-link:hover {
+  opacity: 0.7;
+  font-size: 35px;
+}
+
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+
+img {
+  max-width: 100%;
+  vertical-align: bottom;
+}
+
+li {
+  list-style: none;
+}
+
+section {
+  margin-bottom: 60px;
+}
+
+#header {
+  background: #333;
+  margin-bottom: 60px;
+  height: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/*
+
+ここからfrontページまたはindexページ
+
+*/
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pics {
+  width: 35%;
+}
+
+.pics img {
+  border-radius: 30px;
+}
+
+.pages {
+  width: 45%;
+  margin-top: 100px;
+}
+
+.page-link {
+  font-size: 27px;
+  font-weight: bold;
+  margin-bottom: 30px;
+  align-content: center;
+}
+
+.name {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.languages {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+
+.language {
+  border: 2px solid #333;
+  width: 45%;
+  padding: 20px;
+  margin-bottom: 30px;
+}
+
+/*
+
+ここからabout me
+*/
+
+#about-me p {
+  font-size: 25px;
+}
+
+
+
+
+/*
+
+ここからlanguage
+
+*/
+
+
+
+
+/*
+
+ここからlinks
+
+*/
+
+.my-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.github {
+  width: 40%;
+  text-align: center;
+}
+
+.portofolio {
+  width: 40%;
+  text-align: center;
+}
+
+.portofolio:hover {
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.github:hover {
+  opacity: 0.7;
+  font-size: 20px;
+}
+
+.github img {
+  margin-bottom: 20px;
+}
+
+
+/*
+
+ここからfooter
+
+*/
+
+
+#footer {
+  background: #333;
+  height: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
