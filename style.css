@@ -186,6 +186,33 @@ section {
   margin-bottom: 20px;
 }
 
+.word-press-title {
+  margin-top: 60px;
+}
+
+.wordpress-display {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 60px;
+}
+
+.wordpress {
+  border: 2px solid #333;
+  width: 45%;
+  text-align: center;
+}
+
+.wordpress img {
+  width: 100%;
+}
+
+.wordpress span {
+  margin-top: 25%;
+  display: inline-block;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 
 /*
 
@@ -296,9 +323,28 @@ section {
     font-size: 30px;
   }
 
+  .wordpress-display {
+    flex-direction: column;
+    padding: 0 20px 0 20px;
+  }
+
+  .wordpress {
+    margin-bottom: 60px;
+    width: 100%;
+  }
+
+  .wordpress span {
+    padding-bottom: 20%;
+  }
+
+  .wordpress img {
+    width: 100%;
+  }
+
   .back {
     padding-right: 20px;
   }
+
 
 
   
